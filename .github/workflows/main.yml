@@ -28,10 +28,10 @@ jobs:
 
       - name: Create Azure VM
         run: |
-          az vm create \
-            --resource-group $RESOURCE_GROUP \
-            --name $NAME \
-            --image UbuntuLTS \
-            --admin-username $ADMIN_USERNAME \
-            --admin-password $ADMIN_PASSWORD \
+          az vm create `
+            --resource-group $RESOURCE_GROUP `
+            --name $NAME `
+            --image UbuntuLTS `
+            --admin-username $ADMIN_USERNAME `
+            --admin-password $ADMIN_PASSWORD `
             --size Standard_DS1_v2
