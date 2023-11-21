@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  DeployVM:
+  create-vm:
     runs-on: ubuntu-latest
     env:
       RESOURCE_GROUP: frst-env
