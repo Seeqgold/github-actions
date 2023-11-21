@@ -35,3 +35,8 @@ jobs:
             --admin-username $ADMIN_USERNAME \
             --admin-password $ADMIN_PASSWORD \
             --size Standard_DS1_v2
+      - name: Debug Directory
+        run: |
+            ls -la
+            ls -la /home/runner/work/_temp
+
